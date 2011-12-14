@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TabSample!</string>
+    <string name="app_name">Tab Sample</string>
+<string-array name="Spinner_Content"><item>One</item>
+<item>Two</item>
+<item>Three</item>
+</string-array>
+</resources>
