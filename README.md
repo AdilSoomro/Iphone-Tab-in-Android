@@ -4,25 +4,25 @@ Android tabs at bottom!
 
 This repository contains sample of setting android  `TabLayout` at bottom and showing `Fragment` embedded in `ViewPager`. The magic happens very simply. You need to arrange them properly to stick tabs at bottom.
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:id="@+id/main_content"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:fitsSystemWindows="true">
-<android.support.design.widget.TabLayout
-android:id="@+id/tab_layout"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:layout_alignParentBottom="true"
-android:background="@drawable/tab_background"/>
-<android.support.v4.view.ViewPager
-android:id="@+id/main_tab_content"
-android:layout_width="match_parent"
-android:layout_height="0dp"
-android:layout_alignParentTop="true"
-android:layout_above="@id/tab_layout"
-android:background="@android:color/white" />
-</RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/tab_background"/>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_tab_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_above="@id/tab_layout"
+            android:background="@android:color/white" />
+    </RelativeLayout>
 
 Screenshot
 ----------
