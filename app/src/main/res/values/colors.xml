@@ -13,7 +13,7 @@
 	<color name="theme_color_accent">#084e43</color>
 
 
-	<color name="tab_border">#a4a4a4</color>
-	<color name="tab_background">#c7c7c7</color>
+	<color name="tab_border">#a7a7aa</color>
+	<color name="tab_background">#f6f6f7</color>
 	
 </resources>

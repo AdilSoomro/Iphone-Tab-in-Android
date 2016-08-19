@@ -8,5 +8,6 @@ app/build/*
 androidTest/*
 release/*
 debug/*
+gen/*
 *.class
 

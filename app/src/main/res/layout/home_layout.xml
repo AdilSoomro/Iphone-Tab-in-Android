@@ -9,6 +9,7 @@
         android:layout_height="wrap_content"
         android:text="@string/hello"
         android:textStyle="bold"
+        android:textColor="@android:color/darker_gray"
         android:layout_centerInParent="true"/>
 
 </RelativeLayout>

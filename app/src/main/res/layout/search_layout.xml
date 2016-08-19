@@ -4,8 +4,7 @@
     android:layout_height="fill_parent">
 
     <LinearLayout
-        android:background="@android:color/darker_gray"
-        android:padding="10dp"
+
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true">
