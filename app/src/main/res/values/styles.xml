@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<style name="app_legacy_theme" parent="android:Theme.NoTitleBar">
+		<item name="android:windowBackground">@android:color/white</item>
+	</style>
+
+	<style name="AppTheme" parent="Theme.AppCompat">
+
+		<item name="colorPrimary">@color/theme_color_primary</item>
+		<item name="colorPrimaryDark">@color/theme_color_primary_light</item>
+		<item name="colorAccent">@color/theme_color_accent</item>
+
+		<item name="android:actionBarStyle">@style/AppActionBarStyle</item>
+
+		<!-- Support library compatibility -->
+		<item name="actionBarStyle">@style/AppActionBarStyle</item>
+
+    </style>
+
+
+	<style name="AppActionBarStyle"
+		parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+		<item name="android:background">@color/theme_color_primary</item>
+
+		<!-- Support library compatibility -->
+		<item name="background">@color/theme_color_primary</item>
+	</style>
+</resources>

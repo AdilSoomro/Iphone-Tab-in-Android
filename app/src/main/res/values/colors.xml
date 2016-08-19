@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	
+	
+	<color name="tabMedium">#2B2B2B</color>
+	<color name="tabDark">#000000</color>
+	<color name="tabTransparent">#10ffffff</color>
+
+
+	<color name="theme_color_primary">#1c9359</color>
+	<color name="theme_color_primary_light">#3aaf75</color>
+	<color name="theme_color_accent">#084e43</color>
+
+
+	<color name="tab_border">#a4a4a4</color>
+	<color name="tab_background">#c7c7c7</color>
+	
+</resources>
